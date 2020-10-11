@@ -1,0 +1,93 @@
+body{
+	background: #333;
+}
+.row{
+	min-height: 100vh;
+	margin-left: 3%;
+}
+#particles{
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	top: 0;
+	left: 0;
+}
+.container{
+	position: relative;
+}
+.red{
+	color: #dc3545;
+	border: 2px solid #dc3545;
+}
+input[type="button"]{
+	padding: 20px;
+	margin: 3px;
+	border-radius: 0;
+	color: #14768c;
+	background: #eadddd1f;
+	font-size: 25px;
+	border: 2px solid #14768c;
+	font-weight: 500;
+	transition: all 0.3s ease;
+}
+
+input[type="button"]:hover{
+	background: #333333bf;
+	color: #14768c;
+	border: 2px solid transparent;
+	box-shadow: 0 0 15px #14768c;
+	text-shadow: 0 0 15px #14768c;
+}
+
+input[type="button"]:focus{
+	box-shadow: 0 0 0 transparent !important;
+}
+
+input[type="text"]{
+	padding: 15px;
+	margin-right: 85px;
+	margin-left: 3px;
+	margin-bottom: 10px;
+	border-radius: 0;
+	background: #333333bf !important;
+	color: #14768c;
+	font-size: 25px;
+	font-weight: 500;
+	border: 2px solid #14768c;
+	text-shadow: 0 0 15px #14768c;
+}
+.layout{
+    position: fixed;
+    right: -165px;
+    /* right: 19%; */
+    top: 25%;
+    padding: 20px;
+    /* right: -32px; */
+    transition-duration: 0.2s;
+    /* padding-left: 20px; */
+}
+.layout.open{
+	right: 0;
+}
+.layout ul{}
+.layout ul li{
+    padding: 3px;
+}
+.layout ul li button{
+    width: 30px;
+    height: 30px;
+    display: block;
+}
+.toggler{
+	position: absolute;
+	top: -30px;
+	left: -20px;
+	cursor: pointer;
+	font-size: 40px;
+	color: #14768c;
+	text-shadow: 0 0 5px #14768c;
+	/* font-size: 7px; */
+}
+.toggler i{
+    
+}
